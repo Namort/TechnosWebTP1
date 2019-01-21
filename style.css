@@ -1,0 +1,71 @@
+ #nav 
+{
+   margin-left:25%;
+   padding:0;
+  
+   float:left;
+   width:100%;
+
+   border-width:1px 0;
+}
+
+#nav li 
+{
+   display:inline;
+   padding:0;
+   margin:0;
+}
+
+#nav a:link, #nav a:visited 
+{
+   color:#000;
+   background:lightgrey;
+   padding:20px 40px 4px 10px;
+   float:left;
+   width:auto;
+   border-right:1px solid #42432d;
+   text-decoration:none;
+   font:bold 1em/1em Arial, Helvetica, sans-serif;
+   text-transform:uppercase;
+
+}
+
+#nav li:first-child a 
+{
+   border-left:1px solid #42432d;
+}
+#nav a:hover 
+{
+
+   color:#fff;
+   background:#727454;
+}
+
+body{
+  color: white;
+background-image:url(images/FondEcran.jpg);
+}
+
+main{
+  text-align: center;
+  margin-top: 6em;
+}
+
+img {
+border-radius:50%;
+ 
+}
+
+ 
+.hello{
+animation: bounce .5s alternate 0.1s infinite ease-in;
+}
+
+    @keyframes bounce {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}      
